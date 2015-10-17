@@ -1,0 +1,58 @@
+body {
+  background: url("bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+  margin-top: auto
+}
+
+.typelist {
+  padding: 10px;
+}
+
+.typelist a:hover {
+  cursor: pointer;
+}
+
+.typelist .active a {
+  background-color: #666;
+}
+
+.techlist {
+  border-right: 1px solid #337AB7;
+  font-variant: small-caps;
+}
+
+.techlist ol {
+  list-style-type: decimal;
+}
+
+.techlist li a {
+  border-radius: 0px;
+}
+
+.techlist li a:hover {
+  cursor: pointer;
+}
+
+.techlist .active {
+  position: sticky;
+  top: 0px;
+}
+
+.techinfos {
+  border-top: 1px solid #337AB7;
+  text-align: center;
+  padding: 10px;
+}
+
+.techinfos img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel-footer {
+  text-align: right;
+}
